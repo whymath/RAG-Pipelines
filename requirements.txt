@@ -1,0 +1,12 @@
+ipykernel
+numpy
+pandas
+langchain
+langchain-core
+langchain-community
+langchain-openai
+qdrant-client
+tiktoken
+pymupdf
+wandb
+chainlit
