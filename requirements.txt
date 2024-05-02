@@ -10,3 +10,4 @@ tiktoken
 pymupdf
 wandb
 chainlit
+huggingface_hub
