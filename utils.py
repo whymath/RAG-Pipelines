@@ -33,8 +33,8 @@ def chunk_documents(docs, tiktoken_len):
 
 def create_raqa_chain_from_docs():
     # Load the documents from a PDF file using PyMuPDFLoader
-    docs = PyMuPDFLoader("data/c7318154-f6ae-4866-89fa-f0c589f2ee3d.pdf").load()
-    # docs = PyMuPDFLoader("https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/c7318154-f6ae-4866-89fa-f0c589f2ee3d.pdf").load()
+    # docs = PyMuPDFLoader("data/c7318154-f6ae-4866-89fa-f0c589f2ee3d.pdf").load()
+    docs = PyMuPDFLoader("https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/c7318154-f6ae-4866-89fa-f0c589f2ee3d.pdf").load()
 
     # Print the number of loaded documents
     print("Loaded", len(docs), "documents")
