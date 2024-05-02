@@ -9,3 +9,4 @@ qdrant-client
 tiktoken
 pymupdf
 wandb
+chainlit
